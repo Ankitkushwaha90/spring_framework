@@ -6,7 +6,7 @@ https://start.spring.io/
 apt install gradle
 ```
 # 3. extension in vs code install "spring boot tools"
-
+vs code extesion installation for requried tool and dependency file
 
 # 4. download file from this link according to your self required project
 
@@ -18,4 +18,23 @@ https://spring.io/quickstart
 ```cmd
 ┌──(root㉿ankit)-[/home/ankit/Downloads/21 java gradle 3.3/demo]
 └─# ./gradlew bootRun
+```
+
+# 6. create in controller file location from "spring_framework/demo/src/main/java/com/example/demo/Controller.java"
+```java
+package com.example.demo;
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.GetMapping;
+
+
+@RestController 
+public class Controller {
+    
+    @GetMapping("/get")
+    public String doGet() {
+        return "Hey, this is my new application in java spring framework";
+    }
+    
+}
 ```
