@@ -1,9 +1,13 @@
 ### 1. create application from here 
 https://start.spring.io/
 
-### 2. installation in kali linux
+### 2. gradle installation in kali linux
 ```cmd
 apt install gradle
+```
+ ### maven installation in kali linux
+```cmd
+sudo apt install maven -y
 ```
 ### 3. extension in vs code install "spring boot tools"
 vs code extesion installation for requried tool and dependency file
