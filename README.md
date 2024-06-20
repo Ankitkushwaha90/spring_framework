@@ -19,6 +19,9 @@ https://spring.io/quickstart
 ┌──(root㉿ankit)-[/home/ankit/Downloads/21 java gradle 3.3/demo]
 └─# ./gradlew bootRun
 ```
+```cmd
+./mvnw spring-boot:run
+```
 
 ### 6. create in controller file location from "spring_framework/demo/src/main/java/com/example/demo/Controller.java"
 ```java
