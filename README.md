@@ -20,6 +20,10 @@ https://spring.io/quickstart
 ```
 ### 5. start run server
 ```cmd
+export PATH=$PATH:/opt/gradle/gradle-8.8/bin
+```
+
+```cmd
 ┌──(root㉿ankit)-[/home/ankit/Downloads/21 java gradle 3.3/demo]
 └─# ./gradlew bootRun
 ```
