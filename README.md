@@ -49,3 +49,9 @@ public class Controller {
     
 }
 ```
+### three layer work
+- service layer : it's work of calcution.
+- Controller layer : it's work of data server to client and client to server. and data management work.
+- dau layer : it's work of store data of DBMS;
+-   What are the three layers of Spring Boot?
+- In a Spring Boot application following a three-tier microservices architecture, the Model-View-Controller (MVC) pattern plays a pivotal role in organizing and separating concerns. The architecture is structured into three main layers: Presentation (View and Controller) Business Logic (Service)
